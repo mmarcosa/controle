@@ -1,0 +1,7 @@
+<!-- WebContent/WEB-INF/beans.xml -->
+<beans>
+	<interceptors>
+        <class>br.com.futebolmobile.TX.GerenciadorDeTransacao</class>
+        <class>br.com.futebolmobile.interceptor.TempoDeExecucaoInterceptor</class>
+    </interceptors>
+</beans>
